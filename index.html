@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Conducelo</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            class="img-logo"
+            src="/assets/img/Captura_de_pantalla_2025-01-15_145107-removebg-preview.png"
+            alt="Conducelo"
+          />
+        </div>
+        <div class="lista">
+          <ul>
+            <li>
+              <a>Inicio</a>
+            </li>
+            <li>
+              <a>Catalogo</a>
+            </li>
+            <li>
+              <a>Ofertas</a>
+            </li>
+            <li>
+              <a>Contactos</a>
+            </li>
+          </ul>
+        </div>
+        <button type="button"><i class="fa-solid fa-bars"></i></button>
+      </nav>
+      <header class="header">
+        <div>
+          <h3>Ordenar Por:</h3>
+        </div>
+        <div>
+          <label for="cars">Marca del auto:</label>
+
+          <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">frod</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <div>
+          <label for="vol">Precio (0-10.000)</label>
+          <input type="range" id="vol" name="vol" min="0" max="10000" />
+          <button>enviar</button>
+        </div>
+      </header>
+      <main class="main">
+        <!--primer cart-->
+        <div class="cart">
+          <div class="creativo">
+            <img src="/assets/img/boston.avif" alt="boston"></div>
+            <div>
+              <h4>Celtics Boston "Jayson Tatum"</h4>
+              <P>Camiseta original del equipo boston Celtics, con tela de secado rapido</P>
+            </div>
+            <div>
+              <button>COMPRA</button>
+            </div>
+          </div>
+      </main>
+      <footer class="footer">Todos los derechos reservados ©️ 2025</footer>
+    </div>
+  </body>
+</html>
